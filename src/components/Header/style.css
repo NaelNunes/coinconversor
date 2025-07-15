@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Righteous&display=swap');
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a2e0e;
+  border-bottom: 1px solid #c7ff70;
+  height: 7vh;
+}
+
+.titleH {
+  color: #c7ff70;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
