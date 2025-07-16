@@ -83,7 +83,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/converter?valueInput1=${valorLimpo}&selectedCountryLocal=${selectedCountryLocal.value}&selectedCountryOuter=${selectedCountryOuter.value}`
+        `https://coinconversorapi.onrender.com/api/converter?valueInput1=${valorLimpo}&selectedCountryLocal=${selectedCountryLocal.value}&selectedCountryOuter=${selectedCountryOuter.value}`
       );
 
       if (!response.ok) throw new Error("Erro na requisição");
